@@ -7,7 +7,7 @@ on:
     paths:
       - 'src/TodoAPI/**'
       - 'src/TodoAPI.Tests/**'
-      - '.github/workflows/todo-api.yaml'
+      - '.github/workflows/todo-api.yml'
       - 'deploy/terraform/todo-api/**'
 
   pull_request:
@@ -15,7 +15,7 @@ on:
     paths:
       - 'src/TodoAPI/**'
       - 'src/TodoAPI.Tests/**'
-      - '.github/workflows/todo-api.yaml'
+      - '.github/workflows/todo-api.yml'
 
 env:
   ARTIFACT_NAME: "todo-api"
